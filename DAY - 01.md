@@ -101,4 +101,3 @@ JS는 브라우저뿐만 아니라 서버에서도 실행할 수 있다. 이 외
 </br></br></br>
 >### 출처
 내용 : https://ko.javascript.info/intro
-썸네일 제작 : https://www.canva.com/
