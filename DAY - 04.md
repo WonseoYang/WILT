@@ -171,4 +171,3 @@ alert(height ?? 100); // 0   [ 0??100 == false??100 ]
 > ### 출처
 >
 > 내용 : https://ko.javascript.info/intro
-> 썸네일 제작 : https://www.canva.com/
