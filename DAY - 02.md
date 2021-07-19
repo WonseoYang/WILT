@@ -430,4 +430,3 @@ pageLoadTime의 값은 페이지가 로드되기 전에는 정해지지 않기 �
 > ### 출처
 >
 > 내용 : https://ko.javascript.info/intro
-> 썸네일 제작 : https://www.canva.com/
