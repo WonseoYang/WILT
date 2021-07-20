@@ -388,4 +388,3 @@ switch/case문에서 break문이 없는 경우엔 조건에 상관없이 다음 
 > ### 출처
 >
 > 내용 : https://ko.javascript.info/intro
-> 썸네일 제작 : https://www.canva.com/
