@@ -414,4 +414,3 @@ function isPrime(n) {
 > ### 출처
 >
 > 내용 : https://ko.javascript.info/intro
-> 썸네일 제작 : https://www.canva.com/
