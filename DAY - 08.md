@@ -253,4 +253,3 @@ welcome(); // 제대로 동작합니다.
 > ### 출처
 >
 > 내용 : https://ko.javascript.info/intro
-> 썸네일 제작 : https://www.canva.com/
