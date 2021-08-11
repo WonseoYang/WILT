@@ -1,4 +1,4 @@
-## 계산된 프로퍼티 (Computed Property Name)
+## 계산된 프로퍼티 명 (Computed Property Name)
 
 이름 그대로 이미 계산이 완료된 프로퍼티(속성 명, 키 값)이다.
 간단한 예를 통해서도 이해가 될만큼 개념은 쉽다.
