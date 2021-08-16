@@ -1,5 +1,3 @@
-
-
 ### length
 
 문자열의 길이를 반환한다.
@@ -117,6 +115,7 @@ const text = "I Love BackEnd, I'm BackEnd Developer";
 console.log(text.replaceAll('BackEnd', 'FrontEnd'));
 // I Love FrontEnd, I'm FrontEnd Developer
 ```
+
 ### str.includes()
 
 문자열에서 포함되어있는 지를 확인하여 `true`, `false' 값을 반환하는 메소드이다.
