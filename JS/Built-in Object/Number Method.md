@@ -29,3 +29,8 @@ let num = '26.125%';
 
 parseFloat(num); // 26.125
 ```
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
