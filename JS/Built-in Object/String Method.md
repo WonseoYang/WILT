@@ -126,3 +126,9 @@ const a = '안녕하세요';
 a.includes('녕'); // true
 a.includes('양'); // false
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
