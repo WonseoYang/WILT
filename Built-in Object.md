@@ -11,3 +11,5 @@ a.includes('양'); // false
 b.includes(5); // true
 b.includes(26); // false
 ```
+
+# 내장 객체 #2
