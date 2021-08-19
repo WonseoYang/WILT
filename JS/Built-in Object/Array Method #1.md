@@ -269,3 +269,16 @@ let arr = '1525354';
 console.log(arr.split(5));
 //["1", "2", "3", "4"]
 ```
+
+### arr.includes()
+
+배열에 포함되어있는 지를 확인하여 `true`, `false' 값을 반환하는 메소드이다.
+
+```javascript
+const b = [1, 2, 3, 4, 5, '안녕'];
+
+b.includes(5); // true
+b.includes(26); // false
+b.includes('안녕'); // true
+b.includes('하세요'); // false
+```
