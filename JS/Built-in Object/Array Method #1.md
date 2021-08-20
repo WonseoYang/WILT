@@ -282,3 +282,9 @@ b.includes(26); // false
 b.includes('안녕'); // true
 b.includes('하세요'); // false
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
