@@ -102,3 +102,9 @@ const result = arr.reduceRight((prev, cur) => prev + cur, []);
 
 // "안녕하세요"
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
