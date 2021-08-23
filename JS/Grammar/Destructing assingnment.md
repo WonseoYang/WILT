@@ -133,3 +133,9 @@ console.log(gender); // "male"
 ```
 
 **_구조 분해 할당 시에 기본 값은 말 그대로 기본 값이기에 객체나 배열에 해당 위치에 맞는 값이 존재한다면 그 값으로 덮어 씌워진다._**
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
