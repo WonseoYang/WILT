@@ -43,3 +43,9 @@ a === b; // false
 b == c; // true
 b === c; // true
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
