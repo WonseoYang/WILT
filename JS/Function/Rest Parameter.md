@@ -39,3 +39,9 @@ console.log(user3); // User { name: 'Sam', age: 20, skills: [ 'Java' ] }
 
 **_나머지 매개변수는 인자에서 항상 마지막에 위치하여야 한다.
 (오류 초래) Rest parameter must be last formal parameter]_**
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
