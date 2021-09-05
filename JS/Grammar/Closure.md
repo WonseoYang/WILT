@@ -70,3 +70,8 @@ const add3 = function (y) {
 x + y의 계산을 할 때에 x는 add3의 Lexical 환경에 존재하지 않기에 상위에 참조하는 makeAdder의 Lexical 환경에서 x의 값을에 접근하고 y의 값은 해당 add3의 Lexical 환경에서 참조하여 `3 + 2(y인자)`를 반환하여 콘솔 창에 5가 출력 됨.
 
 **_이 함수는 생성될 당시의 외부 변수(전역 변수, 상위 함수의 Lexical 환경이 가지는 변수)를 기억하여 이후에도 계속 접근이 가능 한 이러한 함수와 Lexical 환경의 조합을 `Closure` 라고 한다._**
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
