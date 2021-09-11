@@ -38,3 +38,8 @@ clearTimeout(myTimeout);
 이 처럼 setTimeout은 값을 반환하는데 해당 값을 할당하여 해당 setTimeout의 이름처럼 사용할 수 있다.
 
 값을 할당받은 변수를 clearTimeout에 인수로 넣어주면 해당 setTimeout의 실행을 막는다.
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
