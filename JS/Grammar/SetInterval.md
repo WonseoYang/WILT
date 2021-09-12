@@ -30,3 +30,9 @@ const tId = setInterval(showTime, 1000);
 //안녕하세요, 현재 접속하신지 5초 됐습니다.
 //		[num이 5가 넘었으므로 종료된다.]
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
