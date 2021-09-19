@@ -19,3 +19,9 @@ updateInfo.apply(mike, [1996, 'student']);
 console.log(mike);
 // { name: 'Mike', birthYear: 1996, occupation: 'student' }
 ```
+
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
