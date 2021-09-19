@@ -21,3 +21,8 @@ console.log(mike); // { name: 'Mike', birthYear: 2002, occupation: 'FEDev' }
 ```
 
 해당 모습처럼 `bind`를 이용하여 특정 함수에 고정할 `this` 값을 넣어 반환된 값을 변수 형태에 할당하여 사용할 때에는 함수 형태로 매개변수만 받아서 사용할 수 있다.
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
