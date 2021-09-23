@@ -56,3 +56,39 @@ Tom.showName();
 인수를 받아 객체를 초기화 하고 데이터에 값을 할당을 하는 역할을 하고 객체 내의 `메소드 함수`는 `생성자 함수`처럼 해당 객체 내부에 메소드를 저장하는 것이 아닌 프로토타입 내부에 저장시킨다.
 
 때문에 `Class`를 이용하여 생성된 객체를 출력시켰을 때 메소드가 보이지 않지만 실행은 가능한 이유이다.
+
+## 상속
+
+`extends`를 이용하여 다른 `객체 생성 Class`를 상속할 수 있다.
+
+```javascript
+class Car {
+  construct(color) {
+    this.color = color;
+    this.wheels = 4;
+  }
+  drive() {
+    console.log('drive..');
+  }
+
+  stop() {
+    console.log('STOP !!');
+  }
+}
+
+class Bmw extends Car {
+  park() {
+    console.log('PARK ~');
+  }
+  stop() {
+    console.log('멈춥니다.');
+  }
+}
+
+const z4 = new Bmw('black');
+
+z4.drive(); //drive..
+z4.stop(); //멈춥니다.
+//stop은 Bmw Class에서 자식 Class인 Car의 stop(); 메소드를 덮어 씌웠기 때문에 'STOP !!'이 아닌 '멈춥니다.'가 출력된다.
+z4.park(); //PARK ~
+```
