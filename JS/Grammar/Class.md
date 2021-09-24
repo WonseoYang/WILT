@@ -92,3 +92,41 @@ z4.stop(); //멈춥니다.
 //stop은 Bmw Class에서 자식 Class인 Car의 stop(); 메소드를 덮어 씌웠기 때문에 'STOP !!'이 아닌 '멈춥니다.'가 출력된다.
 z4.park(); //PARK ~
 ```
+
+## 오버라이딩
+
+### 메소드 오버라이딩
+
+```javascript
+class Car {
+  construct(color) {
+    this.color = color;
+    this.wheels = 4;
+  }
+  drive() {
+    console.log('drive..');
+  }
+
+  park() {
+    console.log('PARK ~');
+  }
+}
+
+class Bmw extends Car {
+  stop() {
+    console.log('멈춥니다.');
+  }
+  park() {
+    super.park();
+    console.log('띠리리리 띠리리리리');
+  }
+}
+
+const z4 = new Bmw('black');
+
+z4.drive(); //drive..
+z4.stop(); //멈춥니다.
+z4.park(); //PARK ~
+//띠리리리 띠리리리리
+//park는 super.park();를 이용하여 자식 클래스인 Car Class의 park(); 메소드를 사용하고 그 다음 console.log로 워딩을 출력한다.
+```
