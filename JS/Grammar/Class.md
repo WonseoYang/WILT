@@ -130,3 +130,41 @@ z4.park(); //PARK ~
 //띠리리리 띠리리리리
 //park는 super.park();를 이용하여 자식 클래스인 Car Class의 park(); 메소드를 사용하고 그 다음 console.log로 워딩을 출력한다.
 ```
+
+### 생성자 오버라이딩
+
+`부모 Class`에서 생성된 값을 가져오려면 `부모 생성자`를 호출해야 한다.
+
+잘못된 예를 먼저 보겠다.
+
+```javascript
+class Car {
+  constructor(color) {
+    this.color = color;
+    this.wheels = 4;
+  }
+  drive() {
+    console.log('drive..');
+  }
+
+  stop() {
+    console.log('STOP !!');
+  }
+  park() {
+    console.log('PARK ~');
+  }
+}
+
+class Bmw extends Car {
+  constructor() {
+    this.navigation = 1;
+  }
+}
+
+const z4 = new Bmw('black');
+
+console.log(z4);
+//Error
+```
+
+이렇게 정상적으로 자식 `Class`에서 생성된 값을 못 가져오는 모습을 볼 수 있다.
