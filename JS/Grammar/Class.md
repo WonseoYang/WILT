@@ -168,3 +168,40 @@ console.log(z4);
 ```
 
 이렇게 정상적으로 자식 `Class`에서 생성된 값을 못 가져오는 모습을 볼 수 있다.
+
+이유는 `extends`를 이용하여 만든 `Class`는 자식 객체가 있다는 이유로 `빈 객체`를 생성하고 초기화 하는 단계를 건너뛰기 때문과 `부모Class`에서 `자식Class`로 인자가 전달되지 않기 때문이다.
+아래와 같이 해결하도록 하자.
+
+```javascript
+class Car {
+  constructor(color) {
+    this.color = color;
+    this.wheels = 4;
+  }
+  drive() {
+    console.log('drive..');
+  }
+
+  stop() {
+    console.log('STOP !!');
+  }
+  park() {
+    console.log('PARK ~');
+  }
+}
+
+class Bmw extends Car {
+  constructor(color) {
+    //인자를 받아서
+    super(color); // 자식 Class에 인자를 전달하여 정상적으로 자식 Class에서 값을 생성할 수 있도록 함.
+    this.navigation = 1;
+  }
+}
+
+const z4 = new Bmw('black');
+
+console.log(z4);
+//Bmw { color: 'black', wheels: 4, navigation: 1 }
+```
+
+정상적으로 자식 Class에서 생성된 값을 가져올 수 있다.
