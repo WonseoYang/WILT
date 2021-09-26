@@ -205,3 +205,8 @@ console.log(z4);
 ```
 
 정상적으로 자식 Class에서 생성된 값을 가져올 수 있다.
+</br></br></br>
+
+> ### 출처
+>
+> 내용 : https://www.youtube.com/watch?v=4_WLS9Lj6n4
