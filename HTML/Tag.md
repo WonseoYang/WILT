@@ -132,6 +132,26 @@ span 태그는 인라인 레벨 태그입니다.
 <span></span>
 ```
 
-unordered list 태그 <ul> : ul 태그는 순서가 없는 리스트를 표현할 때 사용합니다.
+### **unordered list 태그**
 
-orderd list 태그 <ol> : ol 태그는 순서가 있는 리스트를 표현할 때 사용합니다.
+ul 태그는 순서가 없는 리스트를 표현할 때 사용합니다.
+
+```html
+<ul>
+  <li>내용1</li>
+  <li>내용2</li>
+  <li>내용3</li>
+</ul>
+```
+
+### **ordered list 태그**
+
+ol 태그는 순서가 있는 리스트를 표현할 때 사용합니다.
+
+```html
+<ol>
+  <li>내용1</li>
+  <li>내용2</li>
+  <li>내용3</li>
+</ol>
+```
