@@ -10,8 +10,8 @@ style 태그에서의 선언
 
 body 태그에서의 선언
 
-```css
-<p class="foo"> ... </p>
+```html
+<p class="foo">...</p>
 ```
 
 코드처럼 p 태그의 class 속성의 값으로 "foo"라는 값을 넣었다면, CSS에서
