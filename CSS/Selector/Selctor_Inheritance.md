@@ -15,3 +15,13 @@
   border: 1px solid red;
 }
 ```
+
+- ### 동시 선택자 (형제 관계 선택자)</br>
+  아래 코드는 ul과 ol을 동시에 선택합니다.
+
+```css
+ul,
+ol {
+  background-color: powderblue;
+}
+```
