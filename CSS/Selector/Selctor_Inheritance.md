@@ -7,3 +7,11 @@
     color: red;
   }
   ```
+- ### 부모 자손 선택자</br>
+  아래 선택자는 #lecture 바로 밑에 있는 li만을 선택합니다.
+
+```css
+#lecture > li {
+  border: 1px solid red;
+}
+```
