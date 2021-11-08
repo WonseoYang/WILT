@@ -13,4 +13,6 @@ ActiveX Flash 등의 별도의 플러그인이 필요 없고, 스마트폰 및 �
 
 > ### 출처
 >
-> https://blog.lgcns.com/32 > https://webdir.tistory.com/85
+> https://blog.lgcns.com/32
+>
+> https://webdir.tistory.com/85
