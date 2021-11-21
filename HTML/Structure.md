@@ -8,9 +8,9 @@
 
 이 영역에는 `<meta>`, `<title>`, `<style>` 등의 시맨틱 태그가 들어갑니다. `<meta>`는 인코딩 타입이 들어가고, `<title>`는 문서의 제목, `<style>`에는 자바스크립트나 CSS를 넣습니다.
 
-### body 태그
+### `<body>`
 
-body영역에 코드들이 들어가면 웹 브라우저에 표시됩니다. 또 대부분의 시맨틱 태그들이 이 영역에서 사용되죠. 밑에서 정리할 header 태그, section 태그, nav 태그 , article 태그 , footer태그들이 화면을 구성합니다.
+body영역에 코드들이 들어가면 웹 브라우저에 표시됩니다. 또 대부분의 시맨틱 태그들이 이 영역에서 사용되죠. 밑에서 정리할 `<header>`, `<section>`, `<nav>` , `<article>`, `<footer>`들이 화면을 구성합니다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile24.uf.tistory.com%2Fimage%2F2259F94D5651731A0FAB3C)
 
