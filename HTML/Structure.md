@@ -14,9 +14,9 @@ body영역에 코드들이 들어가면 웹 브라우저에 표시됩니다. 또
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile24.uf.tistory.com%2Fimage%2F2259F94D5651731A0FAB3C)
 
-### header 태그
+### `<header>`
 
-위에서 언급한 head 태그는 html 태그 바로 밑에 쓰이지만 header 태그는 body 태그 안에 있기 때문에 둘은 전혀 다릅니다. header 태그는 주로 머리말, 제목을 표현하기 위해 쓰입니다.
+위에서 언급한 `<head>`는 `<html>` 바로 밑에 쓰이지만 `<header>`는 `<body>` 안에 있기 때문에 둘은 전혀 다릅니다. `<header>`는 주로 머리말, 제목을 표현하기 위해 쓰입니다.
 
 ### nav
 
