@@ -106,7 +106,9 @@ anchor 태그를 통해 페이지 내부의 특정 요소로 초점을 이동할
 <h1 id="some-element-id">회사 소개</h1>
 ```
 
-### **<u>iframe 태그</u>**
+### **`<iframe>`**
+
+iframe은 Inline Frame의 약자로 웹 브라우저 내에 또 다른 프레임 즉 현재 브라우저에 렌더링되고 있는 문서 안에 또 다른 HTML 페이지를 삽입할 수 있ㄷ록 하는 기능을 제공합니다.
 
 ```html
 <iframe name="프레임의 이름" src="프레임에 표시할 외부문서의 주소" width="가로 길이" height="세로 길이"> </iframe>
