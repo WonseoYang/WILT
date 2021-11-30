@@ -17,9 +17,9 @@ paragraph 태그
 <p>문단 내용입니다.</p>
 ```
 
-## **linebreak 태그**
+## **`</br>`**
 
-띄어쓰기
+linebreak 태그는 띄어쓰기를 하는 태그이다.
 
 ```html
 <br />
